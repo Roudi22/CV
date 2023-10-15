@@ -1,3 +1,5 @@
+// Importing the components from index.js in sections folder
+import { CustomerReviews, Footer, Hero, PopularProducts, Services, SpecialOffer, Subscribe, SuperQuality} from "./sections";
 const App = () => (
   <main className="relative">
     Nav
