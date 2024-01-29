@@ -24,7 +24,7 @@ const Hero = () => {
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-lg">
           {selectedCard.desc}
         </p>
-        <Button label="Shop now" iconURL={arrowRight} />
+        {selectedCard.uri && <Button label="Live Demo" uri={selectedCard.uri} iconURL={arrowRight} />}
 
         <div className="flex justify-start items-start flex-wrap w-full mt-10 gap-16">
             <div className="text-center flex gap-6">

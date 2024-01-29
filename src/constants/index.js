@@ -43,15 +43,14 @@ export const heroImages = [
     title: "Hi There!",
     subtitle: "I'm Roudi",
     desc: "passionate frontend developer with a keen eye for design and a love for crafting seamless user experiences. With a strong foundation in HTML, CSS, and JavaScript, I bring creativity and technical expertise to every project I undertake.",
-    technology: [
-        
-    ],
+    technology: [],
     thumbnail: pixton,
     bigHeroImage: pixton,
     width: 410,
   },
   {
     id:2,
+    uri: "https://next-js-prompt-j4nhr0lxk-roudi22.vercel.app/",
     title: "Fullstack Website",
     subtitle: "Promptopia",
     desc: "Share AI Prompts with the world with Promptopia. Log in, create your post and discover new prompts.",
@@ -119,21 +118,25 @@ export const statistics = [
 export const projects = [
   {
     imgURL: christmasWebsite,
+    uri: "https://christmas-parallax.netlify.app/",
     name: "Christmas with parallel animation",
     tag: "#HTML #CSS",
   },
   {
     imgURL: sanityPortfolio,
+    uri:"https://roudi-profile.netlify.app/",
     name: "Dynamic Portfolio",
     tag: "#React #MUI #SANITY",
   },
   {
     imgURL: multibleHomePageProject,
+    uri:"https://dulcet-choux-29a4c4.netlify.app/",
     name: "Website with multible Home pages",
     tag: "#React #HTML #CSS",
   },
   {
     imgURL: classicPortfolio,
+    uri:"https://rdevportfolio.netlify.app/",
     name: "Classic Portfolio with Styled Components",
     tag: "#React #Styled_component",
   },
@@ -190,27 +193,6 @@ export const reviews = [
 ];
 
 export const footerLinks = [
-  {
-    title: "Products",
-    links: [
-      { name: "Air Force 1", link: "/" },
-      { name: "Air Max 1", link: "/" },
-      { name: "Air Jordan 1", link: "/" },
-      { name: "Air Force 2", link: "/" },
-      { name: "Nike Waffle Racer", link: "/" },
-      { name: "Nike Cortez", link: "/" },
-    ],
-  },
-  {
-    title: "Help",
-    links: [
-      { name: "About us", link: "/" },
-      { name: "FAQs", link: "/" },
-      { name: "How it works", link: "/" },
-      { name: "Privacy policy", link: "/" },
-      { name: "Payment policy", link: "/" },
-    ],
-  },
   {
     title: "Get in touch",
     links: [
