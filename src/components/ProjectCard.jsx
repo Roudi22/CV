@@ -1,5 +1,5 @@
 
-const ShoeCard = ({imgURL, project, changeBigImage, bigShoeImg}) => {
+const ProjectCard = ({imgURL, project, changeBigImage, bigShoeImg}) => {
     const handleClick = () => {
         if (bigShoeImg !== imgURL) {
             changeBigImage(project)
@@ -14,4 +14,4 @@ const ShoeCard = ({imgURL, project, changeBigImage, bigShoeImg}) => {
   )
 }
 
-export default ShoeCard
+export default ProjectCard

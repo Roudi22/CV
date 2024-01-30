@@ -1,10 +1,11 @@
 import { useState } from "react";
 
 import { arrowRight } from "../assets/icons";
-import { pixton } from "../assets/images";
+
 import Button from "../components/Button";
-import ShoeCard from "../components/ShoeCard";
-import { heroImages, statistics } from "../constants";
+
+import { heroImages } from "../constants";
+import ProjectCard from "../components/ProjectCard";
 const Hero = () => {
   const [selectedCard, setSelectedCard] = useState(heroImages[0])
   return (
@@ -52,7 +53,7 @@ const Hero = () => {
         <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6">
           {heroImages.map((heroImage, index) => (
             <div key={index}>
-              <ShoeCard
+              <ProjectCard
                 project={heroImage}
                 imgURL={heroImage.bigHeroImage}
                 changeBigImage={() => {

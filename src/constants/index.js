@@ -1,4 +1,4 @@
-import { clearAllListeners } from "@reduxjs/toolkit";
+
 import {
   facebook,
   instagram,
@@ -12,19 +12,13 @@ import {
   pixton,
   blackHolePortfolio,
   reactLogo,
-  reduxLogo,
   javascriptLogo,
 
   christmasWebsite,
   sanityPortfolio,
   multibleHomePageProject,
   classicPortfolio,
-  customer1,
-  customer2,
-  shoe4,
-  shoe5,
-  shoe6,
-  shoe7,
+
   nextLogo,
   mongodbLogo,
   googleLogo,
@@ -109,11 +103,6 @@ export const heroImages = [
   },
 ];
 
-export const statistics = [
-  { value: "1k+", label: "Brands" },
-  { value: "500+", label: "Shops" },
-  { value: "250k+", label: "Customers" },
-];
 
 export const projects = [
   {
@@ -145,50 +134,19 @@ export const projects = [
 export const services = [
   {
     imgURL: truckFast,
-    label: "Free shipping",
-    subtext: "Enjoy seamless shopping with our complimentary shipping service.",
+    label: "Rapid Deployment Maven",
+    subtext: "As your Rapid Deployment Maven, I specialize in expediting project timelines without compromising quality.",
   },
   {
     imgURL: shieldTick,
-    label: "Secure Payment",
+    label: "Security Shield Guardian",
     subtext:
-      "Experience worry-free transactions with our secure payment options.",
+      "I implement robust security measures to protect your website and user data from potential threats.",
   },
   {
     imgURL: support,
-    label: "Love to help you",
-    subtext: "Our dedicated team is here to assist you every step of the way.",
-  },
-];
-
-export const reviews = [
-  {
-    imgURL: customer1,
-    customerName: "Morich Brown",
-    rating: 4.5,
-    feedback:
-      "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
-  },
-  {
-    imgURL: customer2,
-    customerName: "Lota Mongeskar",
-    rating: 4.5,
-    feedback:
-      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
-  },
-  {
-    imgURL: customer2,
-    customerName: "Lota Mongeskar",
-    rating: 4.5,
-    feedback:
-      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
-  },
-  {
-    imgURL: customer2,
-    customerName: "Lota Mongeskar",
-    rating: 4.5,
-    feedback:
-      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
+    label: "User Interface Elegance",
+    subtext: "I specialize in creating intuitive, user-friendly interfaces that leave a lasting impression.",
   },
 ];
 

@@ -1,6 +1,6 @@
 import Nav from "./components/Nav";
 // Importing the components from index.js in sections folder
-import { Footer, Hero, PopularProducts, Services, SpecialOffer, Subscribe, SuperQuality} from "./sections";
+import { Footer, Hero, PopularProducts, Services, Subscribe, SuperQuality} from "./sections";
 import { useSelector } from 'react-redux';
 
 
