@@ -17,10 +17,13 @@ const MainProjectCard = ({ imgURL, desc, uri, github, name}) => {
           {desc}
           </p>
           <div className="flex justify-between max-small:justify-around max-xsmall:flex-col gap-5 items-center">
+            { github && 
             <Link to={github} className="flex items-center gap-3">
-                <img src={githubSVG} width={30} alt="github Logo" />
-                <span>Github Repo</span>
+            <img src={githubSVG} width={30} alt="github Logo" />
+            <span>Github Repo</span>
             </Link>
+            }
+            
             <Link to={uri}>
             <Button label="learn more" />
             </Link>
