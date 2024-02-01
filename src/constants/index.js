@@ -108,27 +108,35 @@ export const projects = [
   {
     imgURL: christmasWebsite,
     uri: "https://christmas-parallax.netlify.app/",
+    desc: "Celebrate the festive spirit with the enchanting Christmas Page, a delightful project that brings the magic of the holiday season to life. Crafted with a blend of HTML, CSS, and JavaScript, this interactive page is designed to immerse users in the joyous atmosphere of Christmas.",
+    github: "https://github.com/Roudi22/responsive-christmas-website-2-main",
     name: "Christmas with parallel animation",
-    tag: "#HTML #CSS",
+    tag: "#HTML #CSS #Javascript",
   },
   {
     imgURL: sanityPortfolio,
     uri:"https://roudi-profile.netlify.app/",
+    desc:"Introducing my personal portfolio website, a dynamic showcase of my skills and projects. Built with React in the frontend and powered by Sanity CMS in the backend, this website seamlessly combines cutting-edge technology and a user-friendly content management system.",
+    github: "https://github.com/Roudi22/Portfolio_3_sanity",
     name: "Dynamic Portfolio",
     tag: "#React #MUI #SANITY",
   },
   {
     imgURL: multibleHomePageProject,
     uri:"https://dulcet-choux-29a4c4.netlify.app/",
+    desc:"Step into the diverse world of my portfolio website, offering not just one, but four unique homepages, each designed to reflect different aspects of my skills and personality. Built entirely with React, this portfolio is a showcase of versatility, allowing visitors to choose a personalized entry point into my digital space.",
     name: "Website with multible Home pages",
     tag: "#React #HTML #CSS",
   },
   {
     imgURL: classicPortfolio,
     uri:"https://rdevportfolio.netlify.app/",
+    github:"https://github.com/Roudi22/React-Portfolio-Website",
+    desc:"This React-based portfolio seamlessly integrates motion design elements, providing an immersive and visually dynamic experience. With added features like a loader animation and React Router DOM for seamless navigation, this portfolio is a showcase of creativity and technical prowess.",
     name: "Classic Portfolio with Styled Components",
     tag: "#React #Styled_component",
   },
+  
 ];
 
 export const services = [

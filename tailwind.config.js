@@ -37,7 +37,8 @@ export default {
       },
       screens: {
         "wide": "1440px",
-        "small": "820px"
+        "small": "820px",
+        "xsmall": "435px"
       }
     },
   },

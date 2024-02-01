@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import { arrowRight } from "../assets/icons";
 
@@ -8,6 +8,7 @@ import { heroImages } from "../constants";
 import ProjectCard from "../components/ProjectCard";
 const Hero = () => {
   const [selectedCard, setSelectedCard] = useState(heroImages[0])
+
   return (
     <section
       id="home"
