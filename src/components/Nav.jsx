@@ -47,7 +47,7 @@ const Nav = () => {
         </div>
           {
             isMenuOpen && 
-          <div className="hidden z-20 max-small:block top-7 absolute w-full bg-white rounded-lg">
+          <div className="hidden z-20 max-small:block border border-t-0 top-16 absolute w-full bg-white rounded-lg">
             <ul className="flex flex-col gap-4 p-8">
               {
                 // mapping through the navlinks to display all of them

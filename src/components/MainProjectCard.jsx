@@ -1,7 +1,7 @@
 import React from 'react'
 import { multibleHomePageProject } from '../assets/images'
 import { Link } from 'react-router-dom'
-import { githubSVG } from '../assets/icons'
+import { arrowRight, githubSVG } from '../assets/icons'
 import Button from './Button'
 
 const MainProjectCard = ({ imgURL, desc, uri, github, name}) => {
@@ -24,9 +24,9 @@ const MainProjectCard = ({ imgURL, desc, uri, github, name}) => {
             </Link>
             }
             
-            <Link to={uri}>
-            <Button label="learn more" />
-            </Link>
+            
+            <Button label="learn more" iconURL={arrowRight} uri={uri}/>
+            
           </div>
         </div>
       </div>
