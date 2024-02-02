@@ -1,8 +1,8 @@
 # React + Vite
 
-# Ditt App-namn
+# Online CV
 
-Välkommen till [Ditt App-namn]! Den här React-appen [ge en kort beskrivning av din app].
+Välkommen till [Mitt CV]! Den här React-appen som visar mina projekt som utvecklare och mina färdigheter som person.
 
 ## Förutsättningar
 
