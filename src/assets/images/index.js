@@ -22,7 +22,7 @@ import multibleHomePageProject from "./multibleHome.png"
 import sanityPortfolio from "./sanityPortfolio.png"
 import christmasWebsite from "./christmas.png"
 import classicPortfolio from "./classicPortfolio.png"
-
+import xClone from "./x-clone.png"
 
 import mainIcons from "./mainIcons.svg"
 import mainIconsDark from "./mainIconsdark.svg"
@@ -77,7 +77,7 @@ export {
     classicPortfolio,
     sanityPortfolio,
     multibleHomePageProject,
-
+    xClone,
     mainIcons,
     mainIconsDark,
     blackHolePortfolio,

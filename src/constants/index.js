@@ -18,7 +18,7 @@ import {
   sanityPortfolio,
   multibleHomePageProject,
   classicPortfolio,
-
+  xClone,
   nextLogo,
   mongodbLogo,
   googleLogo,
@@ -105,6 +105,13 @@ export const heroImages = [
 
 
 export const projects = [
+  {
+    imgURL: xClone,
+    uri: "https://x-clone-hq1d.onrender.com/",
+    desc: "A social media app that allows users to post, like, and comment on photos. Built with React, NodeJs, and Tailwind CSS, this project is a showcase of my skills in frontend development and user interface design.",
+    name: "X-Clone",
+    tag: "#React #NodeJs #TailwindCSS #ReactQuery",
+  },
   {
     imgURL: christmasWebsite,
     uri: "https://christmas-parallax.netlify.app/",

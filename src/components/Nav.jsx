@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { headerLogo, logoDark, logoLight } from "../assets/images";
+import { logoDark, logoLight } from "../assets/images";
 import { hamburger } from "../assets/icons";
 // importing the links data from the index.js in constants folder
 import { navLinks } from "../constants";
