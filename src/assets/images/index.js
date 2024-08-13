@@ -17,7 +17,7 @@ import stripeLogo from "./stripe.webp"
 import tailwindLogo from "./tailwind.png"
 import typescriptLogo from "./ts.png"
 import googleLogo from "./google.png"
-
+import chatApp from "./chat-app.png"
 import multibleHomePageProject from "./multibleHome.png"
 import sanityPortfolio from "./sanityPortfolio.png"
 import christmasWebsite from "./christmas.png"
@@ -72,7 +72,7 @@ export {
     stripeLogo,
     tailwindLogo,
     typescriptLogo,
-
+    chatApp,
     christmasWebsite,
     classicPortfolio,
     sanityPortfolio,

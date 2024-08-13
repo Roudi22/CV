@@ -19,6 +19,7 @@ import {
   multibleHomePageProject,
   classicPortfolio,
   xClone,
+  chatApp,
   nextLogo,
   mongodbLogo,
   googleLogo,
@@ -105,6 +106,13 @@ export const heroImages = [
 
 
 export const projects = [
+  {
+    imgURL: chatApp,
+    uri: "https://chat-app-by-roudi.vercel.app/",
+    desc: "Experience the future of communication with the Chat App, a real-time messaging platform that connects users from around the world. Built with NextJs, Redis, Pusher and Kinde, this project is a testament to my skills in frontend development and user experience design.",
+    name: "Chat App",
+    tag: "#NextJs #NodeJs #Redis #Kinde #Pusher",
+  },
   {
     imgURL: xClone,
     uri: "https://x-clone-hq1d.onrender.com/",
